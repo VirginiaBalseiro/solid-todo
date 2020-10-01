@@ -1,0 +1,193 @@
+body {
+  background: url("https://i.ytimg.com/vi/ZXsQAXx_ao0/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.todos-container {
+  padding: 20px;
+  align-items: center;
+  font-family: "Bowlby One SC", cursive;
+}
+
+.populate-message {
+  width: max-content;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  align-self: center;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.todos-container table {
+  width: 100%;
+}
+
+.login-container {
+  width: 100%;
+}
+
+.login-container button {
+  cursor: pointer;
+  margin: 0 5px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 24px;
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px;
+  width: max-content;
+}
+
+.logged-in-message {
+  margin: 0 5px;
+  float: right;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 24px;
+  padding: 15px;
+  width: max-content;
+}
+
+.login-section,
+.login-content {
+  text-align: center;
+  margin: 0 5px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 24px;
+  padding: 15px;
+  width: 100%;
+}
+
+.logout-btn,
+.populate-btn {
+  cursor: pointer;
+  margin: 0 5px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 24px;
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px;
+  width: max-content;
+}
+
+.logout-btn {
+  float: right;
+}
+.todo-input-container {
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto 10%;
+  text-align: left;
+}
+
+.add-btn {
+  border: none;
+  background: none;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  color: white;
+}
+
+.todo-input {
+  border: 5px solid black;
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.todo-text {
+  width: max-content;
+  padding: 5px 20px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.delete-btn {
+  border: none;
+  margin: 10px;
+  background: none;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  color: white;
+}
+
+.done-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.done-container input {
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.done-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border: 5px solid black;
+}
+
+.done-container:hover input ~ .done-checkmark {
+  background-color: #ccc;
+}
+
+.done-container input:checked ~ .done-checkmark {
+  background-color: black;
+}
+
+.done-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.done-container input:checked ~ .done-checkmark:after {
+  display: block;
+}
+
+.done-container .done-checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
