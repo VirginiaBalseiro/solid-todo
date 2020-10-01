@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/solid-todo/static/css/main.92cd2421.chunk.css",
+    "main.js": "/solid-todo/static/js/main.db608b38.chunk.js",
+    "main.js.map": "/solid-todo/static/js/main.db608b38.chunk.js.map",
+    "runtime-main.js": "/solid-todo/static/js/runtime-main.7f39d7d2.js",
+    "runtime-main.js.map": "/solid-todo/static/js/runtime-main.7f39d7d2.js.map",
+    "static/js/2.5f805fa3.chunk.js": "/solid-todo/static/js/2.5f805fa3.chunk.js",
+    "static/js/2.5f805fa3.chunk.js.map": "/solid-todo/static/js/2.5f805fa3.chunk.js.map",
+    "index.html": "/solid-todo/index.html",
+    "precache-manifest.e2c065f06618644df7920c69ff96f019.js": "/solid-todo/precache-manifest.e2c065f06618644df7920c69ff96f019.js",
+    "service-worker.js": "/solid-todo/service-worker.js",
+    "static/css/main.92cd2421.chunk.css.map": "/solid-todo/static/css/main.92cd2421.chunk.css.map",
+    "static/js/2.5f805fa3.chunk.js.LICENSE.txt": "/solid-todo/static/js/2.5f805fa3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f39d7d2.js",
+    "static/js/2.5f805fa3.chunk.js",
+    "static/css/main.92cd2421.chunk.css",
+    "static/js/main.db608b38.chunk.js"
+  ]
+}
